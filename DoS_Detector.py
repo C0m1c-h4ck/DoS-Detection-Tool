@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-
-# Deauth_Attack Detector Python Tool Version 1.0
-# Developed By Mostafa_Samy
-# Github Link ==>> https://github.com/Mostafa-Samy-97
-
-'''
-this tool will help you to detect any Deauth attacks 
-By analyzing the output packet count, you can detect whether it falls under the DoS attack
-or normal behavior
-
-'''
-
 from scapy.all import *
 from scapy.layers import Dot11
 
